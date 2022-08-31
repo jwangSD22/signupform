@@ -1,0 +1,98 @@
+@font-face{
+    font-family: odin;
+    src:url(Norse-Bold.otf);
+}
+
+body{
+    font-size:20px;
+    background-color:black;
+    color:white;
+    display:flex;
+    position:relative;
+}
+
+#odinpic{
+    max-width:100%;
+    height:100%;
+}
+
+.left{
+    display:flex;
+    background-image: url("car.jpg");
+    background-size:cover;
+    position:relative;
+    width:40%;
+    flex-direction:column;
+
+}
+
+.banner{
+    height:10vh;
+    width:100%;
+    color:white;
+    background-color: lightgray;
+    position:absolute;
+    top:200px;
+    opacity:40%;
+}
+
+.bannertext{
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    align-items:center;
+    height:10vh;
+    font-size:5rem;
+    font-family: odin;
+    color:white;
+    position:absolute;
+    top:200px;
+}
+
+.right{
+    display:flex;
+    height:100vh;
+    width:70%;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.inputs {
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+.minicont{
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+button{
+    background-color:rgb(192, 192, 31);
+    font-size:2rem;
+    height:45px;
+    width: 400px;
+    margin:25px;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    background-color:;
+    width:40vw;
+    height:80vh;
+}
+
+
+.sec1{
+    font-size:3rem;
+}
+
+.sec2{
+    display:flex;
+    flex-wrap:wrap;
+    gap:50px;
+
+}
