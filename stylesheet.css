@@ -38,7 +38,7 @@ body{
 
 .bannertext{
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
     width:100%;
     align-items:center;
     height:10vh;
@@ -59,10 +59,30 @@ body{
     
 }
 
+input:focus{
+    background-color:lightblue;
+ /* you don't use border to get the box around the input field, you have to use 
+ "outline"
+ */
+}
+
 .inputs {
     font-family:'Courier New', Courier, monospace;
-    
+       
 }
+
+
+input{
+    width:350px;
+    height:30px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:20px;
+    box-sizing:border-box;
+
+}
+
+
 
 .minicont{
     padding-top:25px;
@@ -80,7 +100,7 @@ button{
 .container{
     display:flex;
     flex-direction:column;
-    background-color:;
+    background-color:black;
     width:40vw;
     height:80vh;
 }
@@ -96,3 +116,4 @@ button{
     gap:50px;
 
 }
+
